@@ -1,8 +1,9 @@
-// Electrons.js
+
 
 	function calculate(dice){
-			return 6;
-	}
+    return 6;
+}
 
-	module.exports = calculate;
-
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = calculate;
+}
