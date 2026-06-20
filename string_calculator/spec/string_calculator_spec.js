@@ -1,6 +1,6 @@
 describe('Electron around the cores', function() {
 	beforeEach(function() {
-		calculator = new StringCalculator();
+		electrons = new ElectronAroundTheCores();
 	});
 
 	it('should return 0 for an empty string', function() {
