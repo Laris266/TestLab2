@@ -17,5 +17,8 @@ describe('calculate', function() {
 	it('should return 12 for [3,5,3,5,4,2]', function() {
         expect(calculate([3,5,3,5,4,2])).toBe(12);
     });
+	it('should return 0 for [2,4,6]', function() {
+        expect(calculate([2,4,6])).toBe(0);
+    });
 
 });
