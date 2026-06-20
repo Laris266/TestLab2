@@ -1,9 +1,9 @@
-describe('Electron around the cores', function() {
-	beforeEach(function() {
-		electrons = new ElectronAroundTheCores();
-	});
+const calculate = require('./Electrons');
 
-	it('should return 0 for an empty string', function() {
-		expect(calculator.add('')).toEqual(0);
-	});
+describe('calculate', function() {
+
+    it('should return 6 for [1,2,3,4,5]', function() {
+        expect(calculate([1,2,3,4,5])).toBe(6);
+    });
+
 });

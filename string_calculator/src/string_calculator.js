@@ -1,5 +1,8 @@
-// StringCalculator.js
-function StringCalculator() {}
-StringCalculator.prototype.add = function(string_numbers) {
-	//
-};
+// Electrons.js
+
+	function calculate(dice){
+			return 6;
+	}
+
+	module.exports = calculate;
+
