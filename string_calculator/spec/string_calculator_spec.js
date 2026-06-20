@@ -1,4 +1,4 @@
-describe('String Calculator', function() {
+describe('Electron around the cores', function() {
 	beforeEach(function() {
 		calculator = new StringCalculator();
 	});
